@@ -1,0 +1,49 @@
+Generate unit tests for the following C++ code using Google Test. Follow these YAML instructions strictly:
+
+<YAML>
+instructions:
+  - Generate unit tests for every function.
+  - Test normal cases and edge cases.
+  - Include tests for exceptions.
+  - Use descriptive test names.
+  - Output only valid C++ code.
+</YAML>
+
+<C++ Code>
+#include <iostream>
+#include <vector>
+#include <stdexcept>
+
+// Adds two integers
+int add(int a, int b) {
+    return a + b;
+}
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
+int multiply(int a, int b) {
+    return a * b;
+}
+
+double divide(int a, int b) {
+    if (b == 0) {
+        throw std::invalid_argument("Division by zero");
+    }
+    return static_cast<double>(a) / b;
+}
+
+int max_in_vector(const std::vector<int>& v) {
+    if (v.empty()) {
+        throw std::invalid_argument("Vector is empty");
+    }
+    int max_val = v[0];
+    for (int i = 1; i < v.size(); ++i) {
+        if (v[i] > max_val) {
+            max_val = v[i];
+        }
+    }
+    return max_val;
+}
+</C++ Code>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\x64\Debug\UnitTestProject.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="AddTest.PositiveNumbers" Duration="1" />
+    <TestDuration Test="AddTest.NegativeNumbers" Duration="1" />
+    <TestDuration Test="AddTest.MixedNumbers" Duration="1" />
+    <TestDuration Test="AddTest.Zero" Duration="1" />
+    <TestDuration Test="DivideTest.PositiveNumbers" Duration="1" />
+    <TestDuration Test="DivideTest.NegativeNumbers" Duration="1" />
+    <TestDuration Test="DivideTest.MixedNumbers" Duration="1" />
+    <TestDuration Test="DivideTest.ZeroDivisorThrows" Duration="1" />
+    <TestDuration Test="DivideTest.ZeroNumerator" Duration="1" />
+    <TestDuration Test="DivideTest.LargeNumbers" Duration="1" />
+    <TestDuration Test="DivideTest.EdgeCaseZeroDivisor" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

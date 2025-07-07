@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="11" failures="1" disabled="0" errors="0" time="0.001" timestamp="2025-07-07T05:56:33.579" name="AllTests">
+  <testsuite name="AddTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2025-07-07T05:56:33.579">
+    <testcase name="PositiveNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="16" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.579" classname="AddTest" />
+    <testcase name="NegativeNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="21" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.579" classname="AddTest" />
+    <testcase name="MixedNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="26" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.579" classname="AddTest" />
+    <testcase name="Zero" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="31" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.579" classname="AddTest" />
+  </testsuite>
+  <testsuite name="DivideTest" tests="7" failures="1" disabled="0" skipped="0" errors="0" time="0." timestamp="2025-07-07T05:56:33.579">
+    <testcase name="PositiveNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="37" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.579" classname="DivideTest" />
+    <testcase name="NegativeNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="43" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.580" classname="DivideTest" />
+    <testcase name="MixedNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="49" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.580" classname="DivideTest" />
+    <testcase name="ZeroDivisorThrows" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="55" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.580" classname="DivideTest" />
+    <testcase name="ZeroNumerator" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="60" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.580" classname="DivideTest" />
+    <testcase name="LargeNumbers" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="65" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.580" classname="DivideTest">
+      <failure message="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp:66&#x0A;The difference between divide(1000000, 1000) and 10.0 is 990, which exceeds 0.001, where&#x0A;divide(1000000, 1000) evaluates to 1000,&#x0A;10.0 evaluates to 10, and&#x0A;0.001 evaluates to 0.001.&#x0A;" type=""><![CDATA[C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp:66
+The difference between divide(1000000, 1000) and 10.0 is 990, which exceeds 0.001, where
+divide(1000000, 1000) evaluates to 1000,
+10.0 evaluates to 10, and
+0.001 evaluates to 0.001.
+]]></failure>
+    </testcase>
+    <testcase name="EdgeCaseZeroDivisor" file="C:\Users\KIIT\cpp-unit-test-generator\UnitTestProject\test_math.cpp" line="70" status="run" result="completed" time="0." timestamp="2025-07-07T05:56:33.580" classname="DivideTest" />
+  </testsuite>
+</testsuites>
